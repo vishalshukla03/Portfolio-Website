@@ -1,0 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#About,
+#Project,
+#Skills,
+#Contact {
+  scroll-margin-top: 90px;
+}
