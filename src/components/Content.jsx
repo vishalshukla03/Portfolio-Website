@@ -57,7 +57,7 @@ export default function Content() {
                             Hi there!
                         </p>
 
-                        <h1 className="display-4 fw-bold mb-3">
+                        <h1 className="display-3 fw-bold mb-3">
                             I am{" "}
                             <span style={gradientStyle}>
                                 Vishal Shukla
@@ -76,11 +76,11 @@ export default function Content() {
                         </p>
 
                         <div className="d-flex flex-wrap justify-content-start gap-3 mb-4">
-                            <a
-                                href="#Project"
-                                className="btn btn-info btn-lg px-4 fw-semibold"
+                             <a
+                                href="mailto:vishal98shukla@gmail.com"
+                                className="btn btn-info btn-lg px-4 rounded-4 fw-medium"
                             >
-                                View Projects
+                                REACH OUT
                             </a>
 
                             <a
@@ -91,22 +91,8 @@ export default function Content() {
                             >
                                 Resume
                             </a>
-
-
                         </div>
 
-                        <div className="d-flex flex-wrap justify-content-start gap-2">
-                            {[
-                                "React.js", "Next.js", "JavaScript", "TypeScript", "Bootstrap",
-                            ].map((skill) => (
-                                <span
-                                    key={skill}
-                                    className="badge rounded-pill border border-secondary text-light px-3 py-2"
-                                >
-                                    {skill}
-                                </span>
-                            ))}
-                        </div>
                     </div>
                 </div>
             </section>
